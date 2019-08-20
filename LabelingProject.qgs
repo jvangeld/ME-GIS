@@ -18,7 +18,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Cities20160113230838172" name="Cities">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Combined_Placenames_26031220160113230416762" name="Combined_Placenames_260312">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Combined_Placenames20160113230416762" name="Combined_Placenames">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Forests20160113231308501" name="Forests">
@@ -55,7 +55,7 @@
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>Combined_Placenames_26031220160113230416762</item>
+      <item>Combined_Placenames20160113230416762</item>
       <item>Beacons20160113230517168</item>
       <item>Cities20160113230838172</item>
       <item>Coastline220160113231057636</item>
@@ -91,9 +91,9 @@
         <legendlayerfile isInOverview="0" layerid="Cities20160113230838172" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Combined_Placenames_260312" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Combined_Placenames" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Combined_Placenames_26031220160113230416762" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Combined_Placenames20160113230416762" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Forests" showFeatureCount="0">
@@ -679,14 +679,14 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Combined_Placenames_26031220160113230416762</id>
-      <datasource>./Combined_Placenames_260312.shp</datasource>
+      <id>Combined_Placenames20160113230416762</id>
+      <datasource>./Combined_Placenames.shp</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Combined_Placenames_260312</layername>
+      <layername>Combined_Placenames</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=31 +datum=WGS84 +units=m +no_defs</proj4>
@@ -2245,7 +2245,7 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>Combined_Placenames_26031220160113230416762</value>
+        <value>Combined_Placenames20160113230416762</value>
         <value>Beacons20160113230517168</value>
         <value>Cities20160113230838172</value>
         <value>Coastline220160113231057636</value>
