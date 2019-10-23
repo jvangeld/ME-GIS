@@ -1,0 +1,204 @@
+GLOBAL_MAPPER_SCRIPT VERSION="1.00" FILENAME="E:\MEDEM\GM\SHAPEFILES\Hills.gmw"
+
+/************ DEFINE LAYER STYLE *************/
+DEFINE_LAYER_STYLE NAME="AREA_STYLE" TYPE="AREA"
+LayerStyle=1
+Type=0
+AreaStyleForAll=2627281665,179,1,0,0.0
+FontForAll=~0~534799372~0.000~0~0
+END_DEFINE_LAYER_STYLE
+
+IMPORT FILENAME="E:\MEDEM\GM\SHAPEFILES\Hills.shp" TYPE="SHAPEFILE" LABEL_FIELD_SEP="0x20" \
+	 LABEL_FIELD="NAME" AREA_STYLE_NAME="AREA_STYLE"
+MODIFY_OVERLAY DATA_SIZE="1165"
+MV``!``$```#8````"@```.(`````````X@```%@````Z`0````````P````Z
+M`0``0````"````!Z`0``#`````P```"&`0````````P```"&`0````````P`
+M``"&`0``!P,``(T$````````C00`````````````````````````````````
+M``````````````````````````````````````````````````"-!```````
+M````````````````````````````````````````````````2&EL;',N<VAP
+M`#4W+C(W.2!S<2!M:0`V-2XV-3D@:VT`14Y#3$]3141?05)%00!(:6QL<P!0
+M15))345415(`4V-A<GD@2&EL;',`?C!^-3,T-SDY,S<R?C`N,#`P?C!^,```
+M`````4"`@`````"$``````````````````````````$````!(YF<`````+,`
+M````````````````````````)0````````!!````!P,`'_____\```$`-0(`
+M*PT7`"\```#%&)B"?P$A01:%7K#3%C!!1%*"1_83(4&;522IMAXP03*(%\V$
+M)B%!_@7M9V\G,$&",A_=OB@A0>DVJ@[1+#!!*NQCNNLC(4'1F0TLYC`P02RU
+MY60+&"%!"*=X634W,$$-11<:IPTA0<@TV&XM.C!!$-<:;^;U($%,YW+-B34P
+M01-I'L0EWB!!M"X7P*XS,$&NLWTF0,@@04%]93&D,3!!QU`:"2O$($&X_'!)
+M^S0P0;^T9O:1P2!!4+7,5M8V,$'Y4]5X(+`@0>2?SMID-S!!,_-#^ZZ>($&8
+MPR!4=S8P03F*'R\;E"!!<.X<3%HU,$&RTJSQD8L@04@9&40]-#!!"^+IOH2$
+M($$`"\5&G#0P07,ICK&I@B!!P)@D7)0W,$%LC=J>$(`@07Q8*N@_.3!!G<<3
+M9.9W($$T2M;JGCDP0:8L22&?;B!!Q&9^Y>`X,$'?`C;Y#6D@07#N'$Q:-3!!
+M'W76XQ5F($&)B[DN13$P03^N)MF99"!!,47^"W(L,$&7].'[;&D@02;;\&^,
+M*#!!)4@(3(]T($$"U$;QNR@P042XUI;S?B!!)MOP;XPH,$$K&SJT"(,@0?9I
+M.576)#!!NFY@!"N.($&#N(?&RR(P0:`(0G<@GB!!\IO?RXDC,$$N7&C'0JD@
+M08I4.]ED)3!!]H5[[].N($&JC8O.Z",P0<SG]3R7N2!!WY4>'0L=,$$S9AB%
+MG,,@0?P`%8E"&C!!T[HGI1#(($'LR*UC$!4P0>+RCLI"S2!!=4FB2[D1,$$H
+M.&$=Q-@@075)HDNY$3!!;WTS<$7D($$0T%?BX!0P0::*GIV4ZB!!9$BY>V<8
+M,$$%;0W3`/(@0=^5'AT+'3!!7;/(]=/V($$':R(E*!XP05VSR/73]B!!'#IE
+M?L88,$%=L\CUT_8@0:B(L^^[%C!!C"2`$(KZ($'PE@?M7!8P051.DS@;`"%!
+H7*P%:<X5,$%43I,X&P`A05RL!6G.%3!!Q1B8@G\!(4$6A5ZPTQ8P00``
+`
+end
+
+/************ DEFINE MAP LAYOUT *************/
+MAP_LAYOUT
+ElevLegendBgColor=16777215
+ElevLegendTranslucency=384
+ElevLegendFont=~0~534799372~0.000~0~0
+ElevLegendVisible=0
+ElevLegendDisplayType=1
+ElevLegendDisplayUnits=1
+ElevLegendDisplayUnitsStr=
+
+DEFINE_PROJ_ELEV_LEGEND
+Projection     Fixed Screen Position
+Datum          D_ADINDAN
+Zunits         NO
+Units          RADIAN
+Xshift         0.000000
+Yshift         0.000000
+Parameters
+0.000000000 /* horz offset
+
+0.000000000 /* horz offset type (0 - left, 1 - right, 2 - center)
+
+0.000000000 /* horz offset value type (0 - inches, 1 - % width, 2 - deg lon)
+
+0.000000000 /* vert offset
+
+0.000000000 /* vert offset type (0 - top, 1 - bottom, 2 - center)
+
+0.000000000 /* vert offset value type (0 - inches, 1 - % width, 2 - deg lat)
+
+100.000000000 /* size value
+
+2.000000000 /* size value type (0 - % width, 1 - % height, 2 - pixel)
+
+1.000000000 /* always on top
+
+0.000000000 /* shrink to fit
+
+END_DEFINE_PROJ
+
+MapLegendType=0
+MapLegendBgColor=16776959
+MapLegendTranslucency=512
+MapLegendFont=~0~534799368~0.000~0~0
+MapLegendFooterFont=~0~534799372~0.000~0~0
+MapLegendHeaderFont=~0~534799372~0.000~0~0
+MapLegendHeader=
+MapLegendFooter=
+MapLegendNumColumns=1
+MapLegendLabelAttr=
+
+DEFINE_PROJ_MAP_LEGEND
+Projection     Fixed Screen Position
+Datum          D_ADINDAN
+Zunits         NO
+Units          RADIAN
+Xshift         0.000000
+Yshift         0.000000
+Parameters
+0.000000000 /* horz offset
+
+1.000000000 /* horz offset type (0 - left, 1 - right, 2 - center)
+
+0.000000000 /* horz offset value type (0 - inches, 1 - % width, 2 - deg lon)
+
+0.000000000 /* vert offset
+
+1.000000000 /* vert offset type (0 - top, 1 - bottom, 2 - center)
+
+0.000000000 /* vert offset value type (0 - inches, 1 - % width, 2 - deg lat)
+
+0.000000000 /* size value
+
+2.000000000 /* size value type (0 - % width, 1 - % height, 2 - pixel)
+
+1.000000000 /* always on top
+
+1.000000000 /* shrink to fit
+
+END_DEFINE_PROJ
+
+NorthArrowSymbol=
+NorthArrowSymbolScale=1.000000
+NorthArrowTranslucency=384
+
+DEFINE_PROJ_NORTH_ARROW
+Projection     Fixed Screen Position
+Datum          D_ADINDAN
+Zunits         NO
+Units          RADIAN
+Xshift         0.000000
+Yshift         0.000000
+Parameters
+0.000000000 /* horz offset
+
+1.000000000 /* horz offset type (0 - left, 1 - right, 2 - center)
+
+0.000000000 /* horz offset value type (0 - inches, 1 - % width, 2 - deg lon)
+
+0.000000000 /* vert offset
+
+0.000000000 /* vert offset type (0 - top, 1 - bottom, 2 - center)
+
+0.000000000 /* vert offset value type (0 - inches, 1 - % width, 2 - deg lat)
+
+100.000000000 /* size value
+
+2.000000000 /* size value type (0 - % width, 1 - % height, 2 - pixel)
+
+1.000000000 /* always on top
+
+0.000000000 /* shrink to fit
+
+END_DEFINE_PROJ
+
+ScaleBarBgColor=16777215
+ScaleBarTranslucency=384
+ScaleBarFont=~0~534799372~0.000~0~0
+ScaleVisible=0
+
+DEFINE_PROJ_SCALE
+Projection     Fixed Screen Position
+Datum          D_ADINDAN
+Zunits         NO
+Units          RADIAN
+Xshift         0.000000
+Yshift         0.000000
+Parameters
+0.000000000 /* horz offset
+
+0.000000000 /* horz offset type (0 - left, 1 - right, 2 - center)
+
+0.000000000 /* horz offset value type (0 - inches, 1 - % width, 2 - deg lon)
+
+0.000000000 /* vert offset
+
+1.000000000 /* vert offset type (0 - top, 1 - bottom, 2 - center)
+
+0.000000000 /* vert offset value type (0 - inches, 1 - % width, 2 - deg lat)
+
+0.000000000 /* size value
+
+2.000000000 /* size value type (0 - % width, 1 - % height, 2 - pixel)
+
+1.000000000 /* always on top
+
+0.000000000 /* shrink to fit
+
+END_DEFINE_PROJ
+
+MarginLeft=0.750000
+MarginRight=0.750000
+MarginTop=0.750000
+MarginBottom=0.750000
+MarginUnits=0
+MarginEnabled=0
+MarginColor=16777215
+GridDisplayType=0
+GridDisplayShowAll=0
+GridSpacingLatLon=0.00000000000000000
+GridSpacingProjected=0.00000000000000000
+END_MAP_LAYOUT
