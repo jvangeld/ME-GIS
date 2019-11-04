@@ -28,7 +28,7 @@
     <layer-tree-layer checked="Qt::Checked" expanded="1" id="Towns20160113232030913" name="Towns" providerKey="ogr" source="./Towns.shp">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="Rivers1920160113231919697" name="Rivers19" providerKey="ogr" source="./Rivers19.shp">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="Rivers20160113231919697" name="Rivers" providerKey="ogr" source="./Rivers.shp">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer checked="Qt::Checked" expanded="1" id="PrimaryRoads20160113231512775" name="PrimaryRoads" providerKey="ogr" source="./PrimaryRoads.shp">
@@ -56,7 +56,7 @@
       <item>Coastline220160113231057636</item>
       <item>Forests20160113231308501</item>
       <item>PrimaryRoads20160113231512775</item>
-      <item>Rivers1920160113231919697</item>
+      <item>Rivers20160113231919697</item>
       <item>Towns20160113232030913</item>
       <item>Mountains_Anno_dcab40aa_d7d4_4273_bf4c_9338999ea7f2</item>
       <item>Regions_Anno_4b465b34_af4a_4654_b543_73414380c292</item>
@@ -65,7 +65,7 @@
   <snapping-settings type="2" intersection-snapping="0" tolerance="0" unit="2" mode="1" enabled="0">
     <individual-layer-settings>
       <layer-setting type="2" tolerance="12" id="Mountains_Anno_dcab40aa_d7d4_4273_bf4c_9338999ea7f2" units="1" enabled="1"/>
-      <layer-setting type="1" tolerance="0" id="Rivers1920160113231919697" units="2" enabled="1"/>
+      <layer-setting type="1" tolerance="0" id="Rivers20160113231919697" units="2" enabled="1"/>
       <layer-setting type="1" tolerance="0" id="Beacons20160113230517168" units="2" enabled="1"/>
       <layer-setting type="1" tolerance="0" id="Combined_Placenames20160113230416762" units="2" enabled="1"/>
       <layer-setting type="1" tolerance="0" id="Coastline220160113231057636" units="2" enabled="1"/>
@@ -118,9 +118,9 @@
         <legendlayerfile isInOverview="0" layerid="Towns20160113232030913" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" name="Rivers19" showFeatureCount="0">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" name="Rivers" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Rivers1920160113231919697" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Rivers20160113231919697" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" name="PrimaryRoads" showFeatureCount="0">
@@ -2152,12 +2152,12 @@
         <xmax>2000311.77633926458656788</xmax>
         <ymax>1950048.75109686120413244</ymax>
       </extent>
-      <id>Rivers1920160113231919697</id>
-      <datasource>./Rivers19.shp</datasource>
+      <id>Rivers20160113231919697</id>
+      <datasource>./Rivers.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Rivers19</layername>
+      <layername>Rivers</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=31 +datum=WGS84 +units=m +no_defs</proj4>
@@ -2687,7 +2687,7 @@
     <layer id="Coastline220160113231057636"/>
     <layer id="Forests20160113231308501"/>
     <layer id="PrimaryRoads20160113231512775"/>
-    <layer id="Rivers1920160113231919697"/>
+    <layer id="Rivers20160113231919697"/>
     <layer id="Towns20160113232030913"/>
     <layer id="Mountains_Anno_dcab40aa_d7d4_4273_bf4c_9338999ea7f2"/>
     <layer id="Regions_Anno_4b465b34_af4a_4654_b543_73414380c292"/>
@@ -2714,7 +2714,7 @@
         <value>Coastline220160113231057636</value>
         <value>Forests20160113231308501</value>
         <value>PrimaryRoads20160113231512775</value>
-        <value>Rivers1920160113231919697</value>
+        <value>Rivers20160113231919697</value>
         <value>Towns20160113232030913</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
